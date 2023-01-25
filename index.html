@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>HorKnee</title>
+</head>
+<body>
+    <div class="content">
+        <div class="logo">HorKnee Food</div>
+        <div class="box">
+            <label>Name</label><br>
+            <input type="text" placeholder="Enter your name" class="inp"><br><br>
+            <label>Email</label><br>
+            <input type="text" placeholder="Enter your email" class="inp"><br><br>
+            <label>Age</label><br>
+            <input type="text" placeholder="Enter your age" class="inp"><br><br>
+            <label>Sex</label><br>
+            <select class="inp">
+                <option>Select Sex</option>
+                <option>Bass Upar Upar Se Kiya Hai</option>
+                <option>Bohot Kiya Hai</option>
+                <option>Bachpan Se Bitchless Hu</option>
+            </select><br><br>
+            <button onclick="play()">Register</button>
+        </div>
+    </div>
+
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+    </script>
+    <audio id="audio" src="music/m.ogg"></audio>
+</body>
+</html>
